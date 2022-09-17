@@ -19,5 +19,4 @@ public record Point(int x, int y) {
 		System.out.print(p+"\n");
 		System.out.println(p.distance(origin));
 	}
-  
 }
