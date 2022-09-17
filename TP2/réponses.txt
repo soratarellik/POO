@@ -1,0 +1,21 @@
+1) s est une chaine de caractères
+
+2) s1 et s2 partangent la même adresse donc sont identiques en tout point
+   s2 et s3 est un nouveau objet de type string qui n'a pas la même adresse
+
+3) La méthode a utiliser est equals
+
+4) Le code suivant affiche true
+
+5) Pour ne pas modifier le paramètre sans faire exprès
+
+6) Le code affiche hello en minuscule.
+Les string étant non mutables pour afficher hello en majuscules il faudrait faire s8 = s8.toUpperCase()
+
+Exercice 2)
+
+1) Fait 
+
+2) permet de concaténer des chaînes de caractères de manière optimisée. On utilisera plutôt un StringBuilder pour éviter de faire des allocations à chaque tour de boucle
+
+
