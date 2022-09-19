@@ -16,6 +16,12 @@ Exercice 2)
 
 1) Fait 
 
-2) permet de concaténer des chaînes de caractères de manière optimisée. On utilisera plutôt un StringBuilder pour éviter de faire des allocations à chaque tour de boucle
+2) permet de concaténer des chaînes de caractères de manière optimisée.
+
+3) éviter de faire des allocations à chaque tour de boucle comme on le ferait avec des +
+
+4) parce que les '' représentent le caractère espace et non une chaine de caractères
+
+
 
 
