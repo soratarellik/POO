@@ -5,8 +5,12 @@ import java.util.regex.Pattern;
 public class ex3 {
 
     public String adresse(String ip){
-        var pattern.compile("[0-255]");
-        return "oui"
+        String p1 = "[0-2][0-5]{2}\.){3}[0-2][0-5]{2}";
+        var pattern = Pattern.compile(p1);
+        if(pattern.matcher(ip).matches() == true){
+            return ip;
+        }
+        return "pas une ip";
     }
 
     public static void main(String[] args){
