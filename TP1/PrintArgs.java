@@ -1,12 +1,14 @@
 public class PrintArgs {
-    public static void main(String[] args){
-        for(String i : args){
-            System.out.println(i);
-        }
-    }
+	public static void main(String[] args) {
+	
+		/**
+		 	int i;
+		for(i = 0;i < args.length; i++) {
+			System.out.println(args[i]);
+		}
+		**/
+		for(String i : args) {
+			System.out.println(i);
+		}
+	}
 }
-
-/*
- * Lorsqu'on ne donne aucun argument au programme il n'affiche rien
- * 
- */

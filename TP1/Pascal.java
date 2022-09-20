@@ -2,7 +2,7 @@
 
 public class Pascal{
 
-    public static int pascal(int nBut, int pBut){
+    public static int formuleBinome(int nBut, int pBut){
         int[] list = new int[nBut+1];
         int i,n;
         list[0] = 1;
@@ -18,7 +18,7 @@ public class Pascal{
 
 
     public static void main(String[] args){
-        int x = pascal(30000, 250);
-        System.out.println("Cn, p = "+x);
+        int x = formuleBinome(30000, 250);
+        System.out.println(x);
     }
 }
