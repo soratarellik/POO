@@ -1,21 +1,29 @@
 # RAPPORT
 
 ## Exercice 1
-Fait
+Cf fichier HelloGroland.java
 
 ## Exercice 2
-Fait
+1) Lorsqu'on ne donne aucun argument au programme celui-ci n'affiche rien
+2) on utilise la méthode length pour connaitre la taille du tableau à parcourir
+3) On parcourt chaque élément de type String dans le tableau avec un boucle for(String i : array)
 
 ## Exercice 3
-Les variables sont scanner de type de scanner, value de type int et args de type String[]
-nextInt est une méthode et pas une fonction. 
-Cette ligne sers à raccourcir le code plutôt qu'utiliser java.util.Scanner à chaque fois qu'on souhaite utiliser un scanner
-Fait 
+1) Cf fichier Calc.java
+2) Les variables sont scanner de type de scanner, value de type int et args de type String[]
+3) nextInt est une méthode et pas une fonction. 
+4) Cette ligne sers à raccourcir le code plutôt qu'utiliser java.util.Scanner à chaque fois qu'on souhaite utiliser un scanner
+5) Cf fichier Calc.java
+6) Cf fichier Calc.java
+
 
 ## Exercice 4
-Une méthode statique n'est utilisable que sur un objet existant
-Lorsque le programme reçoit un argument autre qu'un entier il y a une erreur
-Fait
+1) La ligne de commande pour compiler le fichier Point.Java est javac Point.java
+2) Cf fichier Test.java
+3) Une méthode statique n'est utilisable que sur un objet existant d'une même classe alors qu'une méthode statique peut être utilisée dans une autre classe.
+4) Lorsque le programme reçoit un argument autre qu'un entier il y a une erreur
+5) Cf fichier Test.java
+6) Le prototype de la fonction distance est double distance(Point B)
 
 ## Exercice 5
  Le C s'éxécute en
